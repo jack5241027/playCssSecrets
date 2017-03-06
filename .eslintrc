@@ -1,0 +1,23 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "globals": {
+        "$": false,
+        "chai": true,
+        "expect": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1}],
+        "space-before-function-paren": [2, "never"]
+    },
+    "ecmaFeatures": {
+        "modules": true
+    }
+}

@@ -1,0 +1,41 @@
+// *************************************
+//
+//   Demos
+//   -> Manifest
+//
+// *************************************
+
+@import 'foundation/reset';
+
+// -------------------------------------
+//   Foundation
+// -------------------------------------
+
+@import 'foundation/config/_color.scss';
+@import 'foundation/config/_config.scss';
+@import 'foundation/helpers/_bem.scss';
+@import 'foundation/helpers/_functions.scss';
+@import 'foundation/helpers/_mixins.scss';
+@import 'foundation/helpers/_tools.scss';
+@import 'foundation/base.scss';
+
+// -------------------------------------
+//   Layout
+// -------------------------------------
+
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+
+// -------------------------------------
+//   Components
+// -------------------------------------
+
+// -------------------------------------
+//   Page
+// -------------------------------------
+
+@import 'pages/_index.scss';
+
+// -------------------------------------
+//   Inbox
+// -------------------------------------

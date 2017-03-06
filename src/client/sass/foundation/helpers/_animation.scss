@@ -1,0 +1,126 @@
+// *************************************
+// 動畫參考網站
+// http://www.minimamente.com/example/magic_animations/
+// *************************************
+
+@keyframes fadeOutBubble {
+    0% {
+        opacity: 1;
+        max-width: 200px;
+        visibility: visible
+    }
+
+    80% {
+        opacity: 0;
+        max-width: 200px
+    }
+
+    100% {
+        opacity: 0;
+        max-width: 0;
+        visibility: hidden
+    }
+}
+
+@keyframes fadeInBubble {
+    0% {
+        opacity: 0;
+        max-width: 200px;
+        visibility: hidden
+    }
+
+    80% {
+        opacity: 1;
+        max-width: 200px;
+        visibility: visible
+    }
+
+    100% {
+        opacity: 1;
+        max-width: 200px;
+        visibility: visible
+    }
+}
+
+
+
+@keyframes jumper {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    5% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+@keyframes zboing {
+    0% {
+        transform: scale3d(1, 1, 1)
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1)
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1)
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1)
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1)
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1)
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    12.5% {
+        transform: translateX(-6px) rotateY(-5deg)
+    }
+    37.5% {
+        transform: translateX(5px) rotateY(4deg)
+    }
+    62.5% {
+        transform: translateX(-3px) rotateY(-2deg)
+    }
+    87.5% {
+        transform: translateX(2px) rotateY(1deg)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
+// http://codepen.io/lauraluo/pen/VazLLv

@@ -1,0 +1,58 @@
+// -------------------------------------
+//   Base
+// -------------------------------------
+
+// ----- Browser Support ----- //
+
+// ----- Borders & Box Shadow ----- //
+
+// ----- Typography ----- //
+
+$b-fontFamily-heading: 'OpenSans', sans-serif;
+$b-fontFamily: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$b-fontSize: 16px;
+$b-fontSize-s: 75%;
+$b-fontSize-m: 90%;
+$b-fontSize-l: 115%;
+$b-lineHeight: 1.5;
+
+// ----- Sizing ----- //
+
+$b-space: 20px;
+$b-space-xs: $b-space;
+$b-space-s: 0.5 * $b-space;
+$b-space-l: 2 * $b-space;
+$b-space-xl: 4 * $b-space;
+
+
+// -------------------------------------
+//   Components
+// -------------------------------------
+
+// ----- Grid ----- //
+
+// $g-s: em(480px);
+// $g-m: em(800px);
+// $g-l: em(1024px);
+$g-s: 640px;
+$g-m: 960px;
+$g-l: 1441px;
+
+// -------------------------------------
+//   Function & Mixin
+// -------------------------------------
+
+$breakpoints: (
+  'small'  : $g-s,
+  'medium' : $g-m,
+  'large' : $g-l
+);
+
+//960 Layout
+$_columns: 12 !default;           // 總列數
+$_column-width: 60px !default;   // 單列寬
+$_gutter: 20px !default;        // 間隔
+
+// -------------------------------------
+//   Structures
+// -------------------------------------
