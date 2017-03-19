@@ -23,12 +23,14 @@
 //   Layout
 // -------------------------------------
 
-@import 'layout/_header.scss';
-@import 'layout/_footer.scss';
+@import 'layout/_index.scss';
 
 // -------------------------------------
 //   Components
 // -------------------------------------
+
+@import 'components/_header.scss';
+@import 'components/_showcase.scss';
 
 // -------------------------------------
 //   Page

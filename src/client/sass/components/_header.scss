@@ -1,0 +1,21 @@
+//Component
+
+.header {
+    width: 100%;
+    height: $c-headerHeight;
+    background: $jet;
+    margin-bottom: 2em;
+    padding: .7em;
+
+    > * {
+        display: inline-block;
+        height: calc(#{$c-headerHeight} - 1.7em);
+    }
+
+    &__content {
+        display: block;
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}

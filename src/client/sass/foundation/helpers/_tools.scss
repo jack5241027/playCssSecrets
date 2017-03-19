@@ -16,7 +16,7 @@
         clear: both;
     }
 }
-.clearfix::after {
+.clearfix{
     @extend %clearfix;
 }
 
@@ -64,3 +64,17 @@
     @extend %mb-only;
 }
 
+%float-left {
+    float: left;
+}
+.float-left {
+    @extend %float-left;
+}
+
+
+%float-right {
+    float: right;
+}
+.float-right {
+    @extend %float-right;
+}
