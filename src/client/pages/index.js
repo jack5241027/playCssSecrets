@@ -52,7 +52,7 @@ class Index extends React.Component {
         return (
             <div className='page'>
                 <Header />
-                <main className='page__container page-index'>
+                <main className='page-index'>
                     <h1 className='title'>Ch1. CSS 編寫技巧</h1>
                     <div ref={(node) => { this.showcase = node }} className='showcase clearfix'>
                         <h2 className='showcase__title'>Flexible CSS(Color and Size with em)</h2>

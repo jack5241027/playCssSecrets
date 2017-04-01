@@ -1,0 +1,23 @@
+//Page
+main.page-ch2 {
+    h2 {
+        font-size: 1.25em;
+    }
+    h3 {
+        font-size: 1.125em;
+    }
+    .trans-boder-block {
+        // width: 160px;
+        min-height: 120px;
+        padding: .625em;
+        border: 5px solid hsla(0, 0%, 100%, .5);
+        background-color: $white;
+        &--show-border {
+            border-style: dashed;
+            background-color: burlywood;
+        }
+        &--fix {
+            background-clip: padding-box;
+        }
+    }
+}

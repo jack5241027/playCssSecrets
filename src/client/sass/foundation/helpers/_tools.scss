@@ -70,11 +70,16 @@
 .float-left {
     @extend %float-left;
 }
-
-
 %float-right {
     float: right;
 }
 .float-right {
     @extend %float-right;
 }
+%under-line {
+    text-decoration: underline;
+}
+.under-line {
+    @extend %under-line;
+}
+

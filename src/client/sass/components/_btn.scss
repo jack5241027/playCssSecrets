@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block;
+    width: auto;
+    border: 1px solid $c-border;
+    border-radius: .8em;
+    margin: 0 .4em;
+    padding: .3em .7em;
+    text-align: center;
+    cursor: pointer;
+
+    &--sm {
+        width: 4em;
+    }
+
+    &--md {
+        width: 6em;
+    }
+
+    &--bg {
+        width: 8em;
+    }
+
+    &--fail {
+        background: $scarlet;
+        color: $white;
+    }
+
+    &--succeed {
+        background: $gold;
+        color: $forest;
+    }
+
+    &--submit {
+        background: $cerulean;
+        color: $white;
+    }
+}
