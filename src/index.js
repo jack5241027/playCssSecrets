@@ -6,12 +6,12 @@ import { Router, useRouterHistory } from 'react-router'
 import { createHistory } from 'history'
 
 const target = document.getElementById('root')
-const browserHistory = useRouterHistory(createHistory)({
-    basename: process.env.PUBLIC_URL || '/Users/JackChan/workspace/playCssSecrets/index.html'
-})
+const browserHistory = process.env.PUBLIC_URL
+    ? useRouterHistory(createHistory)({ basename: process.env.PUBLIC_URL })
+    : createHistory()
 
 ReactDOM.render(
     <Router history={browserHistory}>
-      {routes}
+        {routes}
     </Router>
 , target)

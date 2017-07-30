@@ -1,5 +1,10 @@
+#root, .app-container {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+
 .page {
-    // min-height: 100%;
     height: calc(100% - #{$c-headerHeight});
     max-width: 960px;
     margin: 0 auto;
